@@ -26,9 +26,9 @@ Welcome to the Web Automation project for [boibazar.com](https://www.boibazar.co
 
 ## ✨ Features
 
-- ✅ Scroll to different sections of the website.
+- ✅ Scroll to visit the whole website.
 - ✅ Perform mouse hover actions and select a writer.
-- ✅ Hover over menus and select options.
+- ✅ Hover over menus and select options for writer's written books.
 - ✅ Filter text and check selected books.
 - ✅ View book overviews and add them to the cart.
 - ✅ Navigate to the shopping cart, provide a phone number, and proceed to checkout.
@@ -40,7 +40,7 @@ Welcome to the Web Automation project for [boibazar.com](https://www.boibazar.co
 The project is organized into the following main components:
 
 - 📂 `BaseDriver`: Contains driver and page settings.
-- 📂 `Pages`: Includes classes for various website features.
+- 📂 `Pages`: Includes classes for various this website features.
 - 📂 `Tests`: Test cases that use the Page Object Model.
 
 ## 🏁 Getting Started
