@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="9" passed="9" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-11-08T09:05:42Z" name="Default suite" finished-at="2023-11-08T09:07:32Z" duration-ms="109110">
+    <groups>
+    </groups>
+    <test started-at="2023-11-08T09:05:42Z" name="Default test" finished-at="2023-11-08T09:07:32Z" duration-ms="109110">
+      <class name="com.Tests.MyTest_Case">
+        <test-method is-config="true" signature="startbrowser()[pri:0, instance:com.Tests.MyTest_Case@68dc098b]" started-at="2023-11-08T15:05:38Z" name="startbrowser" finished-at="2023-11-08T15:05:42Z" duration-ms="4027" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startbrowser -->
+        <test-method is-config="true" signature="Test_Start()[pri:0, instance:com.Tests.MyTest_Case@68dc098b]" started-at="2023-11-08T15:05:42Z" name="Test_Start" finished-at="2023-11-08T15:05:51Z" duration-ms="8943" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_Start -->
+        <test-method signature="Test_Start()[pri:0, instance:com.Tests.MyTest_Case@68dc098b]" started-at="2023-11-08T15:05:51Z" name="Test_Start" finished-at="2023-11-08T15:05:56Z" duration-ms="4764" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_Start -->
+        <test-method signature="test_3()[pri:2, instance:com.Tests.MyTest_Case@68dc098b]" started-at="2023-11-08T15:05:56Z" name="test_3" finished-at="2023-11-08T15:06:03Z" duration-ms="7014" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_3 -->
+        <test-method signature="test_4()[pri:3, instance:com.Tests.MyTest_Case@68dc098b]" started-at="2023-11-08T15:06:03Z" name="test_4" finished-at="2023-11-08T15:06:27Z" duration-ms="24111" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_4 -->
+        <test-method signature="test_5()[pri:4, instance:com.Tests.MyTest_Case@68dc098b]" started-at="2023-11-08T15:06:27Z" name="test_5" finished-at="2023-11-08T15:06:31Z" duration-ms="3144" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_5 -->
+        <test-method signature="test_6()[pri:5, instance:com.Tests.MyTest_Case@68dc098b]" started-at="2023-11-08T15:06:31Z" name="test_6" finished-at="2023-11-08T15:06:37Z" duration-ms="6452" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_6 -->
+        <test-method signature="test_7()[pri:6, instance:com.Tests.MyTest_Case@68dc098b]" started-at="2023-11-08T15:06:37Z" name="test_7" finished-at="2023-11-08T15:06:42Z" duration-ms="5113" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_7 -->
+        <test-method signature="test_8()[pri:7, instance:com.Tests.MyTest_Case@68dc098b]" started-at="2023-11-08T15:06:42Z" name="test_8" finished-at="2023-11-08T15:06:53Z" duration-ms="10927" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_8 -->
+        <test-method signature="test_9()[pri:8, instance:com.Tests.MyTest_Case@68dc098b]" started-at="2023-11-08T15:06:53Z" name="test_9" finished-at="2023-11-08T15:07:04Z" duration-ms="10614" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_9 -->
+        <test-method signature="test_10()[pri:9, instance:com.Tests.MyTest_Case@68dc098b]" started-at="2023-11-08T15:07:04Z" name="test_10" finished-at="2023-11-08T15:07:32Z" duration-ms="27945" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_10 -->
+        <test-method is-config="true" signature="close()[pri:0, instance:com.Tests.MyTest_Case@68dc098b]" started-at="2023-11-08T15:07:32Z" name="close" finished-at="2023-11-08T15:07:32Z" duration-ms="358" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- com.Tests.MyTest_Case -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
