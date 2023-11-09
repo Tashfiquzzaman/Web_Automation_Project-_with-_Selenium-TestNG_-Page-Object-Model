@@ -21,20 +21,20 @@ public class MyTest_Case extends DriverSetting {
 		PagesSetting.getCurrentDriver().get(url);
 		Thread.sleep(2000);			  
 	}
-		/*
+		
      @Test (priority = 1)
 	public void test_2() throws InterruptedException {
 		Class1_Scrolling Scrolling = new Class1_Scrolling(driver);
 		Scrolling.Scroll();
 		//Thread.sleep(2000);
 	}
-	*/
+	
    
       @Test (priority = 2)
       public void test_3() throws InterruptedException {
            Class2_MouseHover_WritterSelect object1 =new Class2_MouseHover_WritterSelect(driver);
            object1.hovering();
-      // Thread.sleep(2000);
+    
          }
         
          @Test (priority = 3)
