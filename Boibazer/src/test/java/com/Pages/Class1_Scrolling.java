@@ -21,21 +21,11 @@ public class Class1_Scrolling extends DriverSetting{
 	public void Scroll() throws InterruptedException {
 					 
 		  JavascriptExecutor object=(JavascriptExecutor) driver;
-		  /*  	 
-          //down	 
-		  object.executeScript("window.scrollBy(0,document.body.scrollHeight)");	 
-		  Thread.sleep(3000);
-		
-		 // Scroll To Top  
-		 object.executeScript("window.scrollTo(0,0)");
-		 Thread.sleep(3000);
-		*/
-		
-		  // Scroll into a specific location
 		  
-		 WebElement location=driver.findElement(By.xpath("//body[1]/div[1]/div[1]/div[3]/div[1]/div[4]/div[1]/div[2]/div[1]/div[1]/div[1]/article[1]/div[1]/div[2]/div[1]/div[2]/div[1]/div[1]/div[13]/div[1]")); 
+		  
+	     WebElement location=driver.findElement(By.xpath("//body[1]/div[1]/div[1]/div[3]/div[1]/div[4]/div[1]/div[2]/div[1]/div[1]/div[1]/article[1]/div[1]/div[2]/div[1]/div[2]/div[1]/div[1]/div[13]/div[1]")); 
 	     object.executeScript("arguments[0].scrollIntoView(true)",location);		 
-         TimeUnit.SECONDS.sleep(1);
+              TimeUnit.SECONDS.sleep(1);
 		
 	     WebElement location1=driver.findElement(By.xpath("//body[1]/div[1]/div[1]/div[3]/div[1]/div[4]/div[1]/div[2]/div[1]/div[1]/div[1]/article[1]/div[1]/div[4]/div[1]/div[2]/div[1]/div[1]/div[10]/div[1]")); 
 	     object.executeScript("arguments[0].scrollIntoView(true)",location1);
